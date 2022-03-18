@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch LevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.dsa.tree.binarytree.LevelOrderTraversal",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeightOfTree",
+            "request": "launch",
+            "mainClass": "com.dsa.tree.binarytree.HeightOfTree",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Node$TestTree",
+            "request": "launch",
+            "mainClass": "com.dsa.tree.binarytree.Node$TestTree",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.dsa.App",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestFunctionalInterface",
+            "request": "launch",
+            "mainClass": "com.dsa.TestFunctionalInterface",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestList",
+            "request": "launch",
+            "mainClass": "com.dsa.TestList",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMap",
+            "request": "launch",
+            "mainClass": "com.dsa.TestMap",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedArray",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.MergeSortedArray",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayRotation",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.ArrayRotation",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch BracketValidator",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.BracketValidator",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckAnagram",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.CheckAnagram",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dictionary",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.Dictionary",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstNonrepeating",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.FirstNonrepeating",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxDifference",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.MaxDifference",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pallindrome",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.Pallindrome",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerOfTen",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.PowerOfTen",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch President",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.President",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeCheck",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.PrimeCheck",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondSmallest",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.SecondSmallest",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindow",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.SlidingWindow",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringManipulation",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.StringManipulation",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringReversal",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.StringReversal",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestLinkedList",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.TestLinkedList",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.ReverseString",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeightOfTree",
+            "request": "launch",
+            "mainClass": "com.dsa.tree.HeightOfTree",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Trie",
+            "request": "launch",
+            "mainClass": "com.dsa.tree.Trie",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestTree",
+            "request": "launch",
+            "mainClass": "com.dsa.tree.binarytree.TestTree",
+            "projectName": "dsa"
+        }
+    ]
+}
