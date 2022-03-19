@@ -74,6 +74,8 @@ public class BinaryTree {
             if(tempNode.right != null){
                 queue.add(tempNode.right);
             }
+
+           
             
         }
 
