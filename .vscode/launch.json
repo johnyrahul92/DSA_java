@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PowerSet",
+            "request": "launch",
+            "mainClass": "com.dsa.general.PowerSet",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllSubStrings",
+            "request": "launch",
+            "mainClass": "com.dsa.general.AllSubStrings",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "Launch Trie",
             "request": "launch",
             "mainClass": "com.dsa.trie.Trie",

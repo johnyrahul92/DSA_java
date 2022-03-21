@@ -6,7 +6,9 @@ public class SumOfSubset {
 
     public static void main(String[] args) {
 
-        int arr[] = { 1, 2, 3 };
+        int arr[] = { 
+            
+         };
         // String s = "abc";
 
         // char[] c = s.toCharArray();
@@ -28,6 +30,16 @@ public class SumOfSubset {
         }
 
         System.out.println("Sum = "+ sum);
+
+        int newSum=0;
+        int n=arr.length;
+        int times=(int) Math.pow(2, n-1);
+        for (int i = 0; i < n; i++) {
+            newSum+=(arr[i]* times);
+            
+        }
+
+        System.out.println("New sum is = "+ newSum);
 
     }
 
