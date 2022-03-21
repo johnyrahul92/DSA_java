@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Trie",
+            "request": "launch",
+            "mainClass": "com.dsa.trie.Trie",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch InOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.dsa.tree.binarytree.InOrderTraversal",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfSubset",
+            "request": "launch",
+            "mainClass": "com.dsa.general.SumOfSubset",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Employee",
+            "request": "launch",
+            "mainClass": "com.dsa.Employee",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "Launch LevelOrderTraversal",
             "request": "launch",
             "mainClass": "com.dsa.tree.binarytree.LevelOrderTraversal",

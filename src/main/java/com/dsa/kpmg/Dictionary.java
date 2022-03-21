@@ -13,6 +13,8 @@ public class Dictionary {
 
         Map<Character, Integer> charCountMap = getCharCountMap(input);
         List<String> makableWords = getCreatedWords(dict, charCountMap);
+
+        System.out.println(makableWords);
         List<String> wordsOfMaxLength = getWordsOfMaxLength(makableWords);
 
         wordsOfMaxLength.forEach(System.out::println);

@@ -1,4 +1,4 @@
-package com.dsa.tree.binarytree;
+package com.dsa.trie.binarytree;
 
 
 
@@ -9,7 +9,7 @@ public class HeightOfTree {
 
         System.out.println("Hi");
 
-        BinaryTree binaryTree = new BinaryTree();
+        Tree binaryTree = new Tree();
 
         Node root= new Node(1);
         root.left= new Node(2);
