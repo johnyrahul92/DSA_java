@@ -1,4 +1,4 @@
-package com.dsa.kpmg;
+package com.dsa.strings;
 
 
 import java.util.*;
@@ -14,11 +14,33 @@ class CheckAnagram {
 
     char[] inputArr1=input1.toCharArray();
     char[] inputArr2=input2.toCharArray();
+
+    for (char c : inputArr1) {
+
+      int index = input2.indexOf(c);
+      if(index != -1){
+        input2= input2.substring(0, index) + input2.substring(index+1);
+
+      } else{
+        System.out.println("Is not anagram");
+      }
+      
+    }
+
+  
+
+
+
+
+
     Arrays.sort(inputArr1);
     Arrays.sort(inputArr2);
     
     input1=new String(inputArr1);
     input2=new String(inputArr2);
+
+
+    if(input1.equals(input2)) System.out.println("Is anagram");
 
    
     
@@ -36,15 +58,7 @@ class CheckAnagram {
 
     CheckAnagram.checkIsAnagram("rah","har");
 
-    ArrayList<String> strings = new ArrayList<String>();
-    strings.add("Hello, World!");
-    strings.add("Welcome to CoderPad.");
-    strings.add("This pad is running Java " + Runtime.version().feature());
-
-
-
-    for (String string : strings) {
-      System.out.println(string);
+    
     }
   }
-}
+

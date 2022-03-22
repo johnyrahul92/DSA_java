@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringRotationCheck",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.StringRotationCheck",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveCharcters",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.RemoveCharcters",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationsOfString",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.PermutationsOfString",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerSetStrings",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.PowerSetStrings",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckAnagram",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.CheckAnagram",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "Launch PowerSet",
             "request": "launch",
             "mainClass": "com.dsa.general.PowerSet",

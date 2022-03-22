@@ -19,7 +19,9 @@ Provblems tried out
 3. Find the first no repeating character in a string
 4. Check if string is pallindrome
 5. Merge two strings
-6. Print all substrings of string for the given length
+6. Powerset of strings
+7. Remove charcters ofd string2 from string1
+8. check if string2 is rotated version of String1
 
 # Arrays
 1. Sum of all subsets ---##########
