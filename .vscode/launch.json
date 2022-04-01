@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StepSize",
+            "request": "launch",
+            "mainClass": "com.dsa.general.StepSize",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.dsa.Test",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch FractionToRecurring",
+            "request": "launch",
+            "mainClass": "com.dsa.general.FractionToRecurring",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDArray",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.TwoDArray",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutataionsOfString",
+            "request": "launch",
+            "mainClass": "com.dsa.general.PermutataionsOfString",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch EggDropping",
+            "request": "launch",
+            "mainClass": "com.dsa.general.EggDropping",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coins",
+            "request": "launch",
+            "mainClass": "com.dsa.general.Coins",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch RainWaterTrap",
+            "request": "launch",
+            "mainClass": "com.dsa.general.RainWaterTrap",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstNonrepeatingChar",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.FirstNonrepeatingChar",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckBalanced",
+            "request": "launch",
+            "mainClass": "com.dsa.trie.binarytree.CheckBalanced",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockBuySell",
+            "request": "launch",
+            "mainClass": "com.dsa.general.StockBuySell",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcelColumn",
+            "request": "launch",
+            "mainClass": "com.dsa.general.ExcelColumn",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberFormation",
+            "request": "launch",
+            "mainClass": "com.dsa.general.NumberFormation",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseSentence",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.ReverseSentence",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "Launch PowerSet",
             "request": "launch",
             "mainClass": "com.dsa.general.PowerSet",

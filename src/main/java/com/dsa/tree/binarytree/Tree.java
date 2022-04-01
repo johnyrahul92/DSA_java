@@ -1,4 +1,4 @@
-package com.dsa.trie.binarytree;
+package com.dsa.tree.binarytree;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -16,12 +16,7 @@ public class Tree {
             int rDepth = maxDepth(node.right);
 
             return (lDepth < rDepth ? rDepth : lDepth) + 1;
-            // if (lDepth < rDepth) {
-            // return rDepth + 1;
-            // } else {
-            // return lDepth + 1;
-            // }
-
+            
         }
 
     }

@@ -1,7 +1,4 @@
 package com.dsa.general;
-
-import java.util.LinkedList;
-
 public class SumOfSubset {
 
     public static void main(String[] args) {

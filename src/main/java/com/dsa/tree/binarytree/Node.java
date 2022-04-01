@@ -1,4 +1,5 @@
-package com.dsa.trie.binarytree;
+package com.dsa.tree.binarytree;
+
 
 public class Node {
 
