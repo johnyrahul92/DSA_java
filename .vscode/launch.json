@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SmallestNumber",
+            "request": "launch",
+            "mainClass": "com.dsa.general.SmallestNumber",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestUniformSubstring",
+            "request": "launch",
+            "mainClass": "com.dsa.kpmg.LongestUniformSubstring",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch DotProduct",
+            "request": "launch",
+            "mainClass": "com.dsa.general.DotProduct",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPQ",
+            "request": "launch",
+            "mainClass": "com.dsa.heap.TestPQ",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "Launch StepSize",
             "request": "launch",
             "mainClass": "com.dsa.general.StepSize",

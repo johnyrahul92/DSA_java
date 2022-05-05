@@ -31,7 +31,7 @@ public class Coins {
                     tempCount=dp[n-a[i]];
                 }else{
                     tempCount = findCount(n-a[i], a,dp);                 
-                 }
+                }
                  if(count> tempCount+1 && tempCount !=Integer.MAX_VALUE){
                     count=tempCount+1;
                 }                

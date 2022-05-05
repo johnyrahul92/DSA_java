@@ -9,7 +9,7 @@ public class Dictionary {
 
     public static void main(String[] args) {
         String[] dict = new String[] { "to", "toe", "toes", "dog", "dogs", "banana" };
-        String input = "ote";
+        String input = "otesa";
 
         Map<Character, Integer> charCountMap = getCharCountMap(input);
         List<String> makableWords = getCreatedWords(dict, charCountMap);
