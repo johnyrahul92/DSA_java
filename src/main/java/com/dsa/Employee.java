@@ -1,6 +1,9 @@
 package com.dsa;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class Employee {
@@ -65,6 +68,15 @@ public class Employee {
 
         System.out.println(employees);
         employees.forEach(System.out::println);
+
+        List<Employee> emp= new ArrayList<>();
+        emp.addAll(employees);
+
+        System.out.println(emp);
+
+        Collections.sort(emp,(e1,e2) -> { return e2.id-e1.id;});
+        System.out.println(emp);
+
     }
     
 }

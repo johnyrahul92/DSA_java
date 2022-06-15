@@ -8,8 +8,11 @@ public class FractionToRecurring {
     public static void main(String[] args) {
         System.out.println("Fraction to recurrning");
 
+        // 1/3 =0.(3)
+        // 1/4  =0.25
+
         long num=1;
-        long den=3;
+        long den=4;
         String s= getUglyString(num,den);
 
         System.out.println(s);

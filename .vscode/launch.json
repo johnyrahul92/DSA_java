@@ -6,6 +6,146 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseNumber",
+            "request": "launch",
+            "mainClass": "com.dsa.mathematics.ReverseNumber",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfTrailingNumbersFact",
+            "request": "launch",
+            "mainClass": "com.dsa.mathematics.NumberOfTrailingNumbersFact",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleElementKTimes",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.SingleElementKTimes",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleElementWithXor",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.SingleElementWithXor",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch NoOfBItsChange",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.NoOfBItsChange",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClearIthBit",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.ClearIthBit",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetIthBit",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.SetIthBit",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindIthbit",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.FindIthbit",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecimalToBinary",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.DecimalToBinary",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMain",
+            "request": "launch",
+            "mainClass": "com.lambdas.TestMain",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Numeronym",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.Numeronym",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerSetStrings",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.PowerSetStrings",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationsOfString",
+            "request": "launch",
+            "mainClass": "com.dsa.strings.PermutationsOfString",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShiftOperators",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.ShiftOperators",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapWithXor",
+            "request": "launch",
+            "mainClass": "com.dsa.bits.SwapWithXor",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicatesInArray",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.DuplicatesInArray",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthSmallest",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.KthSmallest",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintOneToHundred",
+            "request": "launch",
+            "mainClass": "com.tricky.PrintOneToHundred",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArraySum",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.SubArraySum",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestArrays",
+            "request": "launch",
+            "mainClass": "com.dsa.TestArrays",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "Launch SmallestNumber",
             "request": "launch",
             "mainClass": "com.dsa.general.SmallestNumber",
