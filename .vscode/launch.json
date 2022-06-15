@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SieveOFErtosthenes",
+            "request": "launch",
+            "mainClass": "com.dsa.mathematics.SieveOFErtosthenes",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseNumber",
             "request": "launch",
             "mainClass": "com.dsa.mathematics.ReverseNumber",
