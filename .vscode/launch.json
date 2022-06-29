@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch KadaneAlgoritham",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.KadaneAlgoritham",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElement",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.MajorityElement",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquareArray",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.SquareArray",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.Permutation",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerSet",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.PowerSet",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pallindrome",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.Pallindrome",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Josephus",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.Josephus",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMain",
+            "request": "launch",
+            "mainClass": "com.dsa.recursion.TestMain",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch FastPower",
+            "request": "launch",
+            "mainClass": "com.dsa.mathematics.FastPower",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestElementsArray",
+            "request": "launch",
+            "mainClass": "com.dsa.arrays.LargestElementsArray",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
+            "name": "Launch GCD",
+            "request": "launch",
+            "mainClass": "com.dsa.mathematics.GCD",
+            "projectName": "dsa"
+        },
+        {
+            "type": "java",
             "name": "Launch SieveOFErtosthenes",
             "request": "launch",
             "mainClass": "com.dsa.mathematics.SieveOFErtosthenes",
