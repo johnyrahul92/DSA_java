@@ -1,4 +1,4 @@
-package com.dsa.general;
+package com.dsa.arrays;
 
 public class RainWaterTrap {
 
