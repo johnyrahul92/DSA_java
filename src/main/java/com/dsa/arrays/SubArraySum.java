@@ -1,6 +1,8 @@
 package com.dsa.arrays;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class SubArraySum {
     // Input:
@@ -13,54 +15,45 @@ public class SubArraySum {
 
     public static void main(String[] args) {
 
-        int inputArr[] = { 82, 14, 15 };
+        int inputArr[] = { 2, -1, 3, 7, 5 };
 
-        subarraySum(inputArr, 3, 1196);
+        subarraySum(inputArr, 9);
 
     }
 
-    static ArrayList<Integer> subarraySum(int[] arr, int n, int s) {
-        int i = 0;
-        int sum = 0;
-        int minindex = i, maxindex = i;
-        while (i < arr.length) {
+    static void subarraySum(int[] arr, int s) {
 
-            if (sum < s) {
-                sum += arr[i];
+        //using hashmap
+
+        Map<Integer,Integer> hm = new HashMap<>();
+        int currSum = 0;
+        for (int j = 0; j < arr.length; j++) {
+            
+        
+            
+            currSum += arr[j];
+
+            if(currSum == s){
+                //found starting and ending position
+                System.out.println("Start pos : "+ 0+" end Position : "+ j);
+                return;
+
             }
-            if (sum == s) {
-                // update the start and end index whioch needs +1
-                maxindex = i;
-                break;
+
+            if(hm.containsKey(currSum-s)) {
+                System.out.println("Start pos : "+ (hm.get(currSum -s)+ 1)+" end Position : "+ j);
+                return;
             }
 
-            if (sum > s) {
+            hm.put(currSum, j);
 
-                minindex++;
-                if (minindex < n) {
-                    i = minindex;
-                    sum = 0;
-                    continue;
-                } else {
-                    break;
-                }
-
-                // minIdex + 1 should be i
-            }
-            i++;
-        }
-        // System.out.println(minindex+1+ " "+maxindex);
-        ArrayList<Integer> l1 = new ArrayList<Integer>();
-
-        if (maxindex == 0 && s != sum) {
-            l1.add(-1);
-            return l1;
         }
 
-        l1.add(minindex + 1);
-        l1.add(maxindex + 1);
+        System.out.println("No such position");
 
-        return l1;
+
+
+
     }
 
 }
