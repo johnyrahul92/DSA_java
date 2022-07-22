@@ -1,41 +1,37 @@
 package com.dsa;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Find factorial usinmg recursion");
-        int steps = 8;// 1 and 2 , 3
+       
         int[] stepSize = { 1, 2, 3 };
+        Integer[] stepSize1 = { 1, 2, 3 };
+        List<Integer> ls = Arrays.asList(stepSize1);
+
+        changeArra(stepSize);
+        changeArraI(stepSize1);
+        changeArraO(ls);
+        System.out.println("a");
         
-        findCombinations(steps, stepSize, "");
+      
 
     }
 
-    private static void findCombinations(int steps, int[] stepSize, String s) {
+    private static void changeArraO(List<Integer> ls) {
 
-        // base condition id steps is 0
-        if (steps == 0) {
-            System.out.println(s);
-            return;
-        }
-
-        for (int i = 0; i < stepSize.length; i++) {
-            // find the steps
-            if (steps - stepSize[i] >= 0) {
-                findCombinations(steps - stepSize[i], stepSize, s + stepSize[i]);
-            }
-
-        }
-
+        ls.set(1, 9);
     }
 
-    // this has to be rcursive
-    private static int findFactorial(int n) {
-        // base condition
-        if (n == 0)
-            return 1;
-        // 4 ! = 4 *3! // genric solution n*f(n-1)
-        return n * findFactorial(n - 1);
-
+    private static void changeArraI(Integer[] stepSize1) {
+        stepSize1[1] = 8;
     }
 
+    private static void changeArra(int[] stepSize) {
+        stepSize[1] = 8;
+    }
+
+  
+     
 }
